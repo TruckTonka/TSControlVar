@@ -13,7 +13,7 @@
         {item: 'Batter', keepAmt: 1, sellMin: 0, minGas: 1},
         {item: 'Chocolate_Bar', keepAmt: 1, sellMin: 0, minGas: 1},
         {item: 'Candy_Canes', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Butter', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Butter', keepAmt: 3, sellMin: 0, minGas: 1},
         {item: 'Sugar', keepAmt: 1, sellMin: 0, minGas: 1},
         {item: 'Milk', keepAmt: 1, sellMin: 0, minGas: 1},
         {item: 'Salt', keepAmt: 1, sellMin: 0, minGas: 1},
