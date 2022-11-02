@@ -1,30 +1,83 @@
     // Town Name and possible locations
-    townName = "";
-    townList = [
-         ];
+    townName = "Stanbtb";
+        townList = [
+        {"x":430,"y":188},
+        {"x":426,"y":182},
+        {"x":428,"y":184},
+        {"x":302,"y":102},
+        {"x":303,"y":103},
+        {"x":445,"y":173},
+        {"x":442,"y":171},
+        {"x":444,"y":173},
+        {"x":265,"y":118},
+        {"x":429,"y":177},
+        {"x":441,"y":171},
+        {"x":340,"y":64},
+        {"x":339,"y":64},
+        {"x":338,"y":64},
+        {"x":330,"y":61},
+        {"x":329,"y":61},
+        {"x":328,"y":61},
+        {"x":322,"y":65},
+        {"x":325,"y":62},
+        {"x":326,"y":61},
+        {"x":327,"y":61},
+        {"x":323,"y":65},
+        {"x":324,"y":64},
+        {"x":297,"y":112},
+        {"x":298,"y":111},
+        {"x":299,"y":109},
+        {"x":300,"y":109},
+        {"x":301,"y":108},
+        {"x":302,"y":107},
+        ];
     
     // keepAmt is the amount that you do not want to sell
     // sellMin is the minimum amount needed before attempting to sell
     // setting a sellMin of 100 will ensure that the item is only sold in batches of 100 (e.g. via Freight Ship)
     // minGas is the minimum amount of gas to have before selling the item
     craftedItemsForSale = [
-        {item: 'Decorated_Cake', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Stack_Box', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Party_Box', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Gift_Parcel', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Decorated_Cake', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Food_Parcel', keepAmt: 1, sellMin: 0, minGas: 1},
         {item: 'Cake', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Batter', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Chocolate_Bar', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Candy_Canes', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Butter', keepAmt: 2, sellMin: 0, minGas: 1},
-        {item: 'Sugar', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Pumpkin_Pie', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Fabric_Box', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Supply_Box', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Sangria', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Uniforms', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Wool_Yarn', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Cabernet_Grapes', keepAmt: 0, sellMin: 0, minGas: 1},
+        {item: 'Dough', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Cabernet_Sauvignon', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Jam', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Wax', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Honey', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Eggs', keepAmt: 2, sellMin: 0, minGas: 1},
+        {item: 'Butter', keepAmt: 4, sellMin: 0, minGas: 1},
+        {item: 'Ceramic_Bowl', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Lumber', keepAmt: 75, sellMin: 25, minGas: 1},
+        {item: 'Cotton_Yarn', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Wool_Yarn', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Clay_Lump', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Cocoa', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Pumpkin', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Strawberries', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Sugsarcanes', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Peppermint', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Oak_Wood', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Sugar', keepAmt: 3, sellMin: 0, minGas: 1},
+        {item: 'Salt', keepAmt: 2, sellMin: 0, minGas: 1},
+        {item: 'Flour', keepAmt: 2, sellMin: 0, minGas: 1},
+        {item: 'Brine', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Wood', keepAmt: 15, sellMin: 25, minGas: 1},
         {item: 'Milk', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Salt', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Flour', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Eggs', keepAmt: 1, sellMin: 0, minGas: 1},
-        {item: 'Peppermint', keepAmt: 0, sellMin: 0, minGas: 1},
-        {item: 'Cocoa', keepAmt: 0, sellMin: 0, minGas: 1},
-        {item: 'Brine', keepAmt: 9, sellMin: 0, minGas: 1},
-        {item: 'Sugarcane', keepAmt: 9, sellMin: 0, minGas: 1},
+        {item: 'Cotton', keepAmt: 1, sellMin: 0, minGas: 1},
+        {item: 'Wool', keepAmt: 2, sellMin: 0, minGas: 1},
+        //{item: 'Gasoline', keepAmt: 10, sellMin: 25, minGas: 1},
     ];
-    
     
     trackingExclusionList = ["Energy", "Gasoline", "Petroleum", "Jet_Fuel", "Oak_Wood"];
     townNameToCheck = [
@@ -43,14 +96,38 @@
         //"jobMinutes":30,
         //"itemMinimum":{"Gasoline":8},
         //"rateMinimum":{"Uniforms":400},
-        //"sellingItemMonitor":{"Candy_Canes":15},
-        //"rateMinimumAlarm":{"Candy_Canes":165},
+        //"sellingItemMonitor":{"Honeycomb":30},
+        //"rateMinimumAlarm":{"Honeycomb":290},
     };
     
     //Crafter Control and Monitor
     controlledCraftedItems = [
-        //{item:"Lumber", min:5, max:10, buildings:["[45, 0, 55]", "[45, 0, 45]"]},
-        {item: "Petroleum", min: 1, max: 2, ctrlCounter: 1},
+        //{item: 'Chromium', craftName:"Shallow_Chromium", min: 1, max: 2, buildings:["[55, 0, 75]"]},
+        //{item: "Lumber", craftName:"Lumber", min:10, max:30, ctrlCounter: 1},
+        {item: "Energy", craftName:"Energy", min:4, max:5, ctrlCounter: 1},
+        {item: "Lumber", craftName:"Lumber", min:5, max:8, ctrlCounter: 1, buildings:["[55, 0, 35]","[60, 0, 35]"]},
+        {item: "Wooden_Box", craftName:"Wooden_Box", min:1, max:2, ctrlCounter: 1, buildings:["[65, 0, 35]"]},
+        {item: "Oak_Barrel", craftName:"Oak_Barrel", min:1, max:2, ctrlCounter: 1, buildings:["[60, 0, 35]"]},
+        {item: "Petroleum", craftName:"Petroleum", min:1, max: 2, ctrlCounter: 1},
+        {item: "Water_Drum", craftName:"Water_Drum", min:2, max: 4, ctrlCounter: 1},
+        {item: 'Chromium', craftName:"Shallow_Chromium", min: 1, max: 2, buildings:["[75, 0, 15]"]},
+        {item: 'Limestone', craftName:"Shallow_Limestone", min: 1, max: 2, buildings:["[75, 0, 20]"]},
+        {item: 'Iron', craftName:"Shallow_Iron", min: 2, max: 3, buildings:["[75, 0, 25]"]},
+        {item: 'Silica', craftName:"Silica", min: 2, max: 4},
+        {item: 'Eggs', craftName:"Eggs", min: 4, max: 8, buildings:["[0, 0, 60]"]},
+        {item: 'Wine_Bottle', craftName:"Wine_Bottle", min: 1, max: 2},
+        {item: 'Candy_Canes', craftName:"Candy_Canes", min: 1, max: 2},
+        {item: 'Chocolate_Bar', craftName:"Chocolate_Bar", min: 1, max: 2, buildings:["[35, 0, 20]"]},
+        {item: 'Cabernet_Sauvignon', craftName:"Cabernet_Sauvignon", min: 1, max: 2, buildings:["[45, 0, 20]"]},
+        {item: 'Sangria', craftName:"Sangria", min: 1, max: 2, buildings:["[45, 0, 15]"]},
+        {item: 'Pumpkin_Pie', craftName:"Pumpkin_Pie", min: 1, max: 2, buildings:["[30, 0, 15]"]},
+        {item: 'Batter', craftName:"Batter", min: 3, max: 5, buildings:["[40, 0, 35]"]},
+        {item: 'Jam', craftName:"Jam", min: 1, max: 2, buildings:["[30, 0, 30]"]},
+        {item: 'Honey', craftName:"Honey", min: 1, max: 2, buildings:["[55, 0, 5]"]},
+        {item: 'Gift_Parcel', craftName:"Gift_Parcel", min: 1, max: 2, buildings:["[75, 0, 35]"]},
+        {item: 'Cake', craftName:"Cake", min: 1, max: 2, buildings:["[55, 0, 15]"]},
+        {item: 'Dough', craftName:"Dough", min: 2, max: 3, buildings:["[35, 0, 25]"]},
+        {item: 'Wax', craftName:"Wax", min: 2, max: 3, buildings:["[60, 0, 10]"]},
     ];
     
     //pairCraftItems = {item1:"Wool", craftedItem1:"Wool_Yarn", item2:"Cotton", craftedItem2:"Cotton_Yarn", gap:9, buildings:["[50, 0, 45]"]};
@@ -61,7 +138,8 @@
     //HotKey assignment
     //UpperCaseEBuilding = "Alfa_Fountain_Great";
     //UpperCaseEBuilding = "Rare_Tesla_Coil";
-    //UpperCaseEBuilding = "Simplex_Sugarcane";
+    //UpperCaseEBuilding = "Rare_Simplex_Sugarcane";
+    //UpperCaseEBuilding = "Epic_Water_Tower";
     UpperCaseEBuilding = "Water_Tower";
     //UpperCaseEBuilding = "Legendary_Tesla_Coil";
     //UpperCaseEBuilding = "Rare_Water_Tower";
@@ -73,7 +151,7 @@
 
     enableAutoBuild = false;
     enableAutoTap = true;    
-    enforceBCItems = false;  
+    enforceBCItems = true;  
     enableKeyboardBuild = true;
     
     buildSeq = [
@@ -93,10 +171,13 @@
         //{"do":"Place","building":"Tree_Farm","x":30,"y":20,"min":5,"force":true},
 
 
-        {"do":"WaitCraft","craft":"Blue_Steel","qty":100},          
-        
+
+
+
+
+{"do":"WaitCraft","craft":"Blue_Steel","qty":100},
+
     ];
     
 //-----Anything changed within this segment will need to refresh the game to take effect:    
-//-----Anything changed within this segment will need to refresh the game to take effect: 
-     
+//-----Anything changed within this segment will need to refresh the game to take effect:    
